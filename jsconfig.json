@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "target": "ES2015",
+    },
+    "typeAcquisition": {
+        "enable": true,
+        "include": [
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
